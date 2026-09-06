@@ -1,0 +1,35 @@
+{
+  "input_size": 146,
+  "hidden_size": 128,
+  "num_layers": 2,
+  "num_classes": 6,
+  "label_map": [
+    {
+      "id": 0,
+      "label": "background"
+    },
+    {
+      "id": 1,
+      "label": "S1_base_frame_joint"
+    },
+    {
+      "id": 2,
+      "label": "S2_frame_mirror_fix"
+    },
+    {
+      "id": 3,
+      "label": "S3_right_screw"
+    },
+    {
+      "id": 4,
+      "label": "S4_left_screw"
+    },
+    {
+      "id": 5,
+      "label": "S5_final_check"
+    }
+  ],
+  "val_videos": [
+    "mirror_demo_01.mp4"
+  ]
+}

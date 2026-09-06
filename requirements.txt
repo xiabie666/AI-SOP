@@ -1,0 +1,14 @@
+# Core DL
+ultralytics==8.3.63
+torch==2.2.2
+torchvision==0.17.2
+
+# CV / data
+opencv-python==4.13.0.90
+numpy
+pandas==2.3.3
+Pillow==10.2.0
+mediapipe==0.10.9
+
+# GUI
+PyQt5==5.15.10
